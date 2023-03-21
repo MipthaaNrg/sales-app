@@ -1,0 +1,29 @@
+ion-action-sheet.my-custom-class {
+    --font-size:10px;
+    --background: #3171e0;
+    --backdrop-opacity: 0.4;
+    --button-background-selected: #3171e0;
+    --button-color: #FFFFFF;
+    --color: #fff;
+    /* role: "destructive" button iOS styling override */
+    --ion-color-danger: #000000;
+  }
+
+  ion-segment-button {
+    --indicator-color: #3171e0;
+    font-weight: bold;
+  }
+  
+  /* Material Design styles */
+  ion-segment-button.md {
+    --color: #000;
+    --color-checked: #3171e0;
+    --indicator-height: 4px;
+  }
+  
+  /* iOS styles */
+  ion-segment-button.ios {
+    --color: #3171e0;
+    --color-checked: #fff;
+    --border-radius: 20px;
+  }
